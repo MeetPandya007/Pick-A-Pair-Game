@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F755B6C62A49746700E336EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B6C52A49746700E336EC /* AppDelegate.swift */; };
+		F755B6C82A49746700E336EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B6C72A49746700E336EC /* SceneDelegate.swift */; };
+		F755B6CA2A49746700E336EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B6C92A49746700E336EC /* ViewController.swift */; };
+		F755B6CD2A49746700E336EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F755B6CB2A49746700E336EC /* Main.storyboard */; };
+		F755B6CF2A49746900E336EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F755B6CE2A49746900E336EC /* Assets.xcassets */; };
+		F755B6D22A49746900E336EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F755B6D02A49746900E336EC /* LaunchScreen.storyboard */; };
+		F755B6DA2A49823400E336EC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B6D92A49823400E336EC /* GameViewController.swift */; };
+		F755B6DC2A49861E00E336EC /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B6DB2A49861E00E336EC /* ScoreViewController.swift */; };
+		F755B6DE2A49862F00E336EC /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B6DD2A49862F00E336EC /* RulesViewController.swift */; };
+		F755B6E02A49864300E336EC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B6DF2A49864300E336EC /* SettingsViewController.swift */; };
+		F79D60E12A4B4ADD004C2F27 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79D60E02A4B4ADD004C2F27 /* util.swift */; };
+		F79D60E62A4B5141004C2F27 /* ScoreViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79D60E42A4B5141004C2F27 /* ScoreViewCellTableViewCell.swift */; };
+		F79D60E72A4B5141004C2F27 /* ScoreViewCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79D60E52A4B5141004C2F27 /* ScoreViewCellTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F755B6C22A49746700E336EC /* Pick A Pair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pick A Pair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F755B6C52A49746700E336EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F755B6C72A49746700E336EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F755B6C92A49746700E336EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F755B6CC2A49746700E336EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F755B6CE2A49746900E336EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F755B6D12A49746900E336EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F755B6D32A49746900E336EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F755B6D92A49823400E336EC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F755B6DB2A49861E00E336EC /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		F755B6DD2A49862F00E336EC /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		F755B6DF2A49864300E336EC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F79D60E02A4B4ADD004C2F27 /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		F79D60E42A4B5141004C2F27 /* ScoreViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewCellTableViewCell.swift; sourceTree = "<group>"; };
+		F79D60E52A4B5141004C2F27 /* ScoreViewCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScoreViewCellTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F755B6BF2A49746700E336EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F755B6B92A49746700E336EC = {
+			isa = PBXGroup;
+			children = (
+				F755B6C42A49746700E336EC /* CardGame */,
+				F755B6C32A49746700E336EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F755B6C32A49746700E336EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F755B6C22A49746700E336EC /* Pick A Pair.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F755B6C42A49746700E336EC /* CardGame */ = {
+			isa = PBXGroup;
+			children = (
+				F755B6C52A49746700E336EC /* AppDelegate.swift */,
+				F755B6C72A49746700E336EC /* SceneDelegate.swift */,
+				F79D60E02A4B4ADD004C2F27 /* util.swift */,
+				F79D60E22A4B5104004C2F27 /* VC */,
+				F79D60E32A4B5116004C2F27 /* Cells */,
+				F755B6CB2A49746700E336EC /* Main.storyboard */,
+				F755B6CE2A49746900E336EC /* Assets.xcassets */,
+				F755B6D02A49746900E336EC /* LaunchScreen.storyboard */,
+				F755B6D32A49746900E336EC /* Info.plist */,
+			);
+			path = CardGame;
+			sourceTree = "<group>";
+		};
+		F79D60E22A4B5104004C2F27 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				F755B6C92A49746700E336EC /* ViewController.swift */,
+				F755B6DB2A49861E00E336EC /* ScoreViewController.swift */,
+				F755B6DF2A49864300E336EC /* SettingsViewController.swift */,
+				F755B6DD2A49862F00E336EC /* RulesViewController.swift */,
+				F755B6D92A49823400E336EC /* GameViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		F79D60E32A4B5116004C2F27 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F79D60E42A4B5141004C2F27 /* ScoreViewCellTableViewCell.swift */,
+				F79D60E52A4B5141004C2F27 /* ScoreViewCellTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F755B6C12A49746700E336EC /* Pick A Pair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F755B6D62A49746900E336EC /* Build configuration list for PBXNativeTarget "Pick A Pair" */;
+			buildPhases = (
+				F755B6BE2A49746700E336EC /* Sources */,
+				F755B6BF2A49746700E336EC /* Frameworks */,
+				F755B6C02A49746700E336EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pick A Pair";
+			productName = CardGame;
+			productReference = F755B6C22A49746700E336EC /* Pick A Pair.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F755B6BA2A49746700E336EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F755B6C12A49746700E336EC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = F755B6BD2A49746700E336EC /* Build configuration list for PBXProject "Pick A Pair" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F755B6B92A49746700E336EC;
+			productRefGroup = F755B6C32A49746700E336EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F755B6C12A49746700E336EC /* Pick A Pair */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F755B6C02A49746700E336EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F755B6D22A49746900E336EC /* LaunchScreen.storyboard in Resources */,
+				F79D60E72A4B5141004C2F27 /* ScoreViewCellTableViewCell.xib in Resources */,
+				F755B6CF2A49746900E336EC /* Assets.xcassets in Resources */,
+				F755B6CD2A49746700E336EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F755B6BE2A49746700E336EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79D60E62A4B5141004C2F27 /* ScoreViewCellTableViewCell.swift in Sources */,
+				F755B6DA2A49823400E336EC /* GameViewController.swift in Sources */,
+				F755B6CA2A49746700E336EC /* ViewController.swift in Sources */,
+				F79D60E12A4B4ADD004C2F27 /* util.swift in Sources */,
+				F755B6E02A49864300E336EC /* SettingsViewController.swift in Sources */,
+				F755B6DC2A49861E00E336EC /* ScoreViewController.swift in Sources */,
+				F755B6C62A49746700E336EC /* AppDelegate.swift in Sources */,
+				F755B6DE2A49862F00E336EC /* RulesViewController.swift in Sources */,
+				F755B6C82A49746700E336EC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F755B6CB2A49746700E336EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F755B6CC2A49746700E336EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F755B6D02A49746900E336EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F755B6D12A49746900E336EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F755B6D42A49746900E336EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F755B6D52A49746900E336EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F755B6D72A49746900E336EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pick A Pair";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pickapair.mj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F755B6D82A49746900E336EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pick A Pair";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pickapair.mj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F755B6BD2A49746700E336EC /* Build configuration list for PBXProject "Pick A Pair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F755B6D42A49746900E336EC /* Debug */,
+				F755B6D52A49746900E336EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F755B6D62A49746900E336EC /* Build configuration list for PBXNativeTarget "Pick A Pair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F755B6D72A49746900E336EC /* Debug */,
+				F755B6D82A49746900E336EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F755B6BA2A49746700E336EC /* Project object */;
+}

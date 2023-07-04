@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2FBC5799-E191-4F6B-808A-72B4B77E2645"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "737A2429-47F5-496A-9C0E-32AB4D4A4763"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CardGame/VC/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "setTag()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "737A2429-47F5-496A-9C0E-32AB4D4A4763 - df5c0810b542f811"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pick_A_Card.GameViewController.setTag() -&gt; ()"
+                  moduleName = "Pick A Card"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Developers/Downloads/Pick-A-Card-Game-main/CardGame/VC/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "737A2429-47F5-496A-9C0E-32AB4D4A4763 - df5c0810b542f853"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pick_A_Card.GameViewController.setTag() -&gt; ()"
+                  moduleName = "Pick A Card"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Developers/Downloads/Pick-A-Card-Game-main/CardGame/VC/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3C165D1-5495-4381-BE28-87B43D8B6BAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CardGame/VC/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "resetView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A3C165D1-5495-4381-BE28-87B43D8B6BAA - cca47ec1433040c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pick_A_Card.GameViewController.resetView() -&gt; ()"
+                  moduleName = "Pick A Card"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Developers/Downloads/Pick-A-Card-Game-main/CardGame/VC/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "A3C165D1-5495-4381-BE28-87B43D8B6BAA - cca47ec14330400a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pick_A_Card.GameViewController.resetView() -&gt; ()"
+                  moduleName = "Pick A Card"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Developers/Downloads/Pick-A-Card-Game-main/CardGame/VC/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98718045-F412-4BB6-A157-3E8BFDA5B301"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CardGame/VC/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "onClickReplay(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98718045-F412-4BB6-A157-3E8BFDA5B301 - c4ec2a858ef876e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pick_A_Card.GameViewController.onClickReplay(Any) -&gt; ()"
+                  moduleName = "Pick A Card"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Developers/Downloads/Pick-A-Card-Game-main/CardGame/VC/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "98718045-F412-4BB6-A157-3E8BFDA5B301 - c4ec2a858ef8492f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pick_A_Card.GameViewController.onClickReplay(Any) -&gt; ()"
+                  moduleName = "Pick A Card"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Developers/Downloads/Pick-A-Card-Game-main/CardGame/VC/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
